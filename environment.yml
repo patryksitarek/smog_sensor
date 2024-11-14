@@ -1,0 +1,9 @@
+name: smog_data_collection
+channels:
+  - defaults
+dependencies:
+  - python=3.11.2
+  - pip
+  - pip:
+    - paho-mqtt==2.1.0
+    - python-dotenv=1.0.1
